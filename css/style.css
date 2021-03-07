@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin: 0;
+}
+
+.container {
+    padding: 0 2em;
+}
+
+.background-img {
+    background-image: url("../image/bg.jpg");
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.player-container {
+    display: inline-block;
+    width: 150px;
+}
+
+.player-img {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: solid 2px #ccc;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.cell {
+    float: left;
+    width: 98px;
+    height: 98px;
+    border: solid 1px #ccc;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.ocolor {
+    background-color: #abe0ff;
+}
+
+.xcolor {
+    background-color: #fff1ab;
+}
+
+.turn {
+    border: solid 1px blue;
+    color: blue;
+    border-radius: 3px;
+}
+
+.result {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: transparent;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background-color: #3f45fc;
+    border: solid 1px #696dff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
